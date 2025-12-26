@@ -1,7 +1,8 @@
+<div algin="center">
 # Hi, I'm Jaikaran 👋
 
 ## 🚀 projects
-
+</div>
 <table>
 <tr>
 <td width="50%">
