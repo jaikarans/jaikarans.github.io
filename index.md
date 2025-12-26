@@ -1,6 +1,6 @@
 ---
-layout: no-title
-title: "jaikaran saini"
+layout: default
+title: ""
 ---
 
 <p align="center">
