@@ -1,8 +1,11 @@
-<div algin="center">
-# Hi, I'm Jaikaran 👋
+<p align="center">
+  <img src="profile.png" alt="Profile" height="200" width="200"  style="border-radius: 50%; object-fit:cover;" />
+</p>
+
+<h1 style="text-align: center;"> Hi, I'm Jaikaran 👋</h1>
 
 ## 🚀 projects
-</div>
+
 <table>
 <tr>
 <td width="50%">
