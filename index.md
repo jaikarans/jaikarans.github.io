@@ -8,38 +8,38 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" onclick="window.location.href='https://github.com/jaikarans/tetris-for-terminal'" style="cursor:pointer;">
 
 <img src="tetris_886x499.png" alt="Tetris for Terminal" />
 
-### [Tetris for Terminal](https://github.com/jaikarans/tetris-for-terminal)
+### Tetris for Terminal
 A classic Tetris game playable entirely in the terminal, written in Java
 
 </td>
-<td width="50%">
+<td width="50%" onclick="window.location.href='https://github.com/jaikarans/maze-game'" style="cursor:pointer;">
 
 <img src="maze_886x499.png" alt="maze game" />
 
-### [Maze Game](https://github.com/jaikarans/maze-game)
+### Maze Game
 A responsive maze game that adapts seamlessly to different screen sizes
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" onclick="window.location.href='https://github.com/jaikarans/snake-xenzia'" style="cursor:pointer;">
 
 <img src="snake_886x499.png" alt="Snake Game" />
 
-### [Snake Xenzia](https://github.com/jaikarans/snake-xenzia)
+### Snake Xenzia
 An implementation of the classic Snake game designed for Pc and Laptop
 
 </td>
-<td width="50%">
+<td width="50%" onclick="window.location.href='https://github.com/jaikarans/game-of-life'" style="cursor:pointer;">
 
 <img src="game_886x499.png" alt="Game of Life" />
 
-### [Game Of Life](https://github.com/jaikarans/game-of-life)
+### Game Of Life
 An implementation of Conway’s Game of Life, a cellular automaton
 
 </td>
