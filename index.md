@@ -12,7 +12,7 @@
 
 <img src="tetris_886x499.png" alt="Tetris for Terminal" />
 
-### Tetris for Terminal
+<h3>Tetris for Terminal</h3>
 A classic Tetris game playable entirely in the terminal, written in Java
 
 </td>
@@ -20,7 +20,7 @@ A classic Tetris game playable entirely in the terminal, written in Java
 
 <img src="maze_886x499.png" alt="maze game" />
 
-### Maze Game
+<h3>Maze Game</h3>
 A responsive maze game that adapts seamlessly to different screen sizes
 
 </td>
@@ -31,7 +31,7 @@ A responsive maze game that adapts seamlessly to different screen sizes
 
 <img src="snake_886x499.png" alt="Snake Game" />
 
-### Snake Xenzia
+<h3>Snake Xenzia</h3>
 An implementation of the classic Snake game designed for Pc and Laptop
 
 </td>
@@ -39,7 +39,7 @@ An implementation of the classic Snake game designed for Pc and Laptop
 
 <img src="game_886x499.png" alt="Game of Life" />
 
-### Game Of Life
+<h3>Game Of Life</h3>
 An implementation of Conway’s Game of Life, a cellular automaton
 
 </td>
