@@ -1,5 +1,5 @@
 ---
-layout: no-title
+layout: null
 title: ""
 ---
 
@@ -50,3 +50,12 @@ An implementation of Conway’s Game of Life, a cellular automaton
 </td>
 </tr>
 </table>
+
+<script>
+  console.log("hello");
+  const firstH1 = document.body.getElementsByTagName("h1")[0];
+  if (firstH1) {
+    firstH1.style.display = "none";
+  }
+
+</script>
