@@ -36,7 +36,7 @@ Explains what IoC really means, why it exists, and how Spring manages object cre
 <tr>
 <td width="50%" onclick="window.location.href='https://github.com/jaikarans/tetris-for-terminal'" style="cursor:pointer;">
 
-<img src="tetris_886x499.png" width="886" height="499" alt="Tetris for Terminal" />
+<img src="tetris_886x499.png" alt="Tetris for Terminal" />
 
 <h3>Tetris for Terminal</h3>
 A classic Tetris game playable entirely in the terminal, written in Java
