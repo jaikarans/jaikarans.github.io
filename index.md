@@ -22,12 +22,9 @@ My focus is on **Java, Spring Framework, and software design principles**, expla
 <td width="50%" onclick="window.location.href='https://medium.com/@jaikrns/inversion-of-control-ioc-spring-framework-core-eef63cd168f2'" style="cursor:pointer;">
 
 <img src="spring-ioc.png" alt="Spring IoC logo" />
-
 <h3>Inversion of Control (IoC) Spring Framework Core</h3>
 Explains what IoC really means, why it exists, and how Spring manages object creation and lifecycle.
-<h3>
 </td>
-
 <td width="50%">
 </td>
 </tr>
