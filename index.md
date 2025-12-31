@@ -3,6 +3,35 @@
 </p>
 
 <h1 style="text-align: center;"> Hi, I'm Jaikaran 👋</h1>
+<p align="center"><em>I am looking for an fulltime Job/Intership</em></p>
+
+## 🎓 Education
+
+**Bachelor of Technology in Computer Science**  
+*2019-2023*
+
+## ✍️ Blog
+
+I write technical blogs to document my learning journey, explain core computer science concepts, and share hands-on experiences from the projects I build.  
+My focus is on **Java, Spring Framework, and software design principles**, explained in a simple and practical way.
+
+### 📌 Featured Posts
+
+<table>
+<tr>
+<td width="50%" onclick="window.location.href='https://medium.com/@jaikrns/inversion-of-control-ioc-spring-framework-core-eef63cd168f2'" style="cursor:pointer;">
+
+<img src="spring-ioc.png" alt="Spring IoC logo" />
+
+<h3>Inversion of Control (IoC) Spring Framework Core</h3>
+Explains what IoC really means, why it exists, and how Spring manages object creation and lifecycle.
+<h3>
+</td>
+
+<td width="50%">
+</td>
+</tr>
+</table>
 
 ## 🚀 projects
 
@@ -10,7 +39,7 @@
 <tr>
 <td width="50%" onclick="window.location.href='https://github.com/jaikarans/tetris-for-terminal'" style="cursor:pointer;">
 
-<img src="tetris_886x499.png" alt="Tetris for Terminal" />
+<img src="tetris_886x499.png" width="886" height="499" alt="Tetris for Terminal" />
 
 <h3>Tetris for Terminal</h3>
 A classic Tetris game playable entirely in the terminal, written in Java
