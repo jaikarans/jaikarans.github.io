@@ -52,6 +52,7 @@ An implementation of Conway’s Game of Life, a cellular automaton
 </tr>
 </table>
 
+
 ## ✍️ Blog
 
 I write technical blogs to document my learning journey, explain core computer science concepts, and share hands-on experiences from the projects I build.  
