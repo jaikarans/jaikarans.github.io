@@ -67,18 +67,13 @@ My focus is on **Java, Spring Framework, and software design principles**, expla
 <h3>Inversion of Control (IoC) Spring Framework Core</h3>
 Explains what IoC really means, why it exists, and how Spring manages object creation and lifecycle.
 </td>
-<td width="50%">
-</td>
-</tr>
-
-<tr>
+<!-- <td width="50%">
+</td> -->
 <td width="50%" onclick="window.location.href='https://medium.com/@jaikrns/everything-about-fail-fast-and-fail-safe-iterators-d81400304ed2'" style="cursor:pointer;">
 
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*2OhO0dVdVkvcExjwvzqSNw.png" alt="Fail-fast logo" />
 <h3>Everything About Fail-fast and Fail-safe Iterators</h3>
 Master Java Collection iterators by understanding Fail-Fast and Fail-Safe behaviour.
-</td>
-<td width="50%">
 </td>
 </tr>
 
