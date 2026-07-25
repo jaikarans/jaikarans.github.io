@@ -52,6 +52,7 @@ An implementation of Conway’s Game of Life, a cellular automaton
 </tr>
 </table>
 
+<br>
 
 ## ✍️ Blog
 
