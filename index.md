@@ -3,32 +3,12 @@
 </p>
 
 <h1 style="text-align: center;"> Hi, I'm Jaikaran 👋</h1>
-<p align="center"><em>I am looking for an fulltime Job/Intership</em></p>
+<p align="center"> <em> Java Backend Developer passionate about building scalable, high-performance backend systems with Java, Spring Boot, Microservices, and cloud technologies. </em> </p>
 
 ## 🎓 Education
 
 **Bachelor of Technology in Computer Science**  
 *2019-2023*
-
-## ✍️ Blog
-
-I write technical blogs to document my learning journey, explain core computer science concepts, and share hands-on experiences from the projects I build.  
-My focus is on **Java, Spring Framework, and software design principles**, explained in a simple and practical way.
-
-### 📌 Featured Posts
-
-<table>
-<tr>
-<td width="50%" onclick="window.location.href='https://medium.com/@jaikrns/inversion-of-control-ioc-spring-framework-core-eef63cd168f2'" style="cursor:pointer;">
-
-<img src="spring-ioc.png" alt="Spring IoC logo" />
-<h3>Inversion of Control (IoC) Spring Framework Core</h3>
-Explains what IoC really means, why it exists, and how Spring manages object creation and lifecycle.
-</td>
-<td width="50%">
-</td>
-</tr>
-</table>
 
 ## 🚀 projects
 
@@ -68,6 +48,26 @@ An implementation of the classic Snake game designed for Pc and Laptop
 <h3>Game Of Life</h3>
 An implementation of Conway’s Game of Life, a cellular automaton
 
+</td>
+</tr>
+</table>
+
+## ✍️ Blog
+
+I write technical blogs to document my learning journey, explain core computer science concepts, and share hands-on experiences from the projects I build.  
+My focus is on **Java, Spring Framework, and software design principles**, explained in a simple and practical way.
+
+### 📌 Featured Posts
+
+<table>
+<tr>
+<td width="50%" onclick="window.location.href='https://medium.com/@jaikrns/inversion-of-control-ioc-spring-framework-core-eef63cd168f2'" style="cursor:pointer;">
+
+<img src="spring-ioc.png" alt="Spring IoC logo" />
+<h3>Inversion of Control (IoC) Spring Framework Core</h3>
+Explains what IoC really means, why it exists, and how Spring manages object creation and lifecycle.
+</td>
+<td width="50%">
 </td>
 </tr>
 </table>
