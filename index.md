@@ -9,23 +9,31 @@
 /* Responsive card grid for projects and posts */
 .responsive-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
   align-items: start;
 }
+
+@media (min-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .card {
   background: transparent;
-  border-radius: 8px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
-  transition: transform .12s ease, box-shadow .12s ease;
+  transition: transform .12s ease;
 }
+
 .card:hover {
   transform: translateY(-4px);
 }
+
 .card-image-container {
   width: 100%;
   height: 200px;
@@ -33,8 +41,8 @@
   align-items: center;
   justify-content: center;
   background: #f5f5f5;
-  border-radius: 6px;
 }
+
 .card img {
   max-width: 100%;
   max-height: 200px;
@@ -43,16 +51,20 @@
   object-fit: contain;
   display: block;
 }
+
 .card-content {
   padding: 0.6rem 0.2rem 0.8rem 0.2rem;
 }
+
 .card h3 {
   margin: 0.45rem 0 0.3rem 0;
 }
+
 .card p {
   margin: 0;
   color: #444;
 }
+
 @media (max-width: 420px) {
   .card-image-container {
     height: 160px;
