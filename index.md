@@ -26,12 +26,22 @@
 .card:hover {
   transform: translateY(-4px);
 }
-.card img {
+.card-image-container {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
-  display: block;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
   border-radius: 6px;
+}
+.card img {
+  max-width: 100%;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 .card-content {
   padding: 0.6rem 0.2rem 0.8rem 0.2rem;
@@ -44,7 +54,12 @@
   color: #444;
 }
 @media (max-width: 420px) {
-  .card img { height: 140px; }
+  .card-image-container {
+    height: 160px;
+  }
+  .card img {
+    max-height: 160px;
+  }
 }
 </style>
 
@@ -57,7 +72,9 @@
 
 <div class="responsive-grid" aria-label="projects">
   <a class="card" href="https://github.com/jaikarans/tetris-for-terminal">
-    <img src="tetris_886x499.png" alt="Tetris for Terminal" />
+    <div class="card-image-container">
+      <img src="tetris_886x499.png" alt="Tetris for Terminal" />
+    </div>
     <div class="card-content">
       <h3>Tetris for Terminal</h3>
       <p>A classic Tetris game playable entirely in the terminal, written in Java</p>
@@ -65,7 +82,9 @@
   </a>
 
   <a class="card" href="https://github.com/jaikarans/maze-game">
-    <img src="maze_886x499.png" alt="Maze Game" />
+    <div class="card-image-container">
+      <img src="maze_886x499.png" alt="Maze Game" />
+    </div>
     <div class="card-content">
       <h3>Maze Game</h3>
       <p>A responsive maze game that adapts seamlessly to different screen sizes</p>
@@ -73,7 +92,9 @@
   </a>
 
   <a class="card" href="https://github.com/jaikarans/snake-xenzia">
-    <img src="snake_886x499.png" alt="Snake Game" />
+    <div class="card-image-container">
+      <img src="snake_886x499.png" alt="Snake Game" />
+    </div>
     <div class="card-content">
       <h3>Snake Xenzia</h3>
       <p>An implementation of the classic Snake game designed for Pc and Laptop</p>
@@ -81,10 +102,12 @@
   </a>
 
   <a class="card" href="https://github.com/jaikarans/game-of-life">
-    <img src="game_886x499.png" alt="Game of Life" />
+    <div class="card-image-container">
+      <img src="game_886x499.png" alt="Game of Life" />
+    </div>
     <div class="card-content">
       <h3>Game Of Life</h3>
-      <p>An implementation of Conway’s Game of Life, a cellular automaton</p>
+      <p>An implementation of Conway's Game of Life, a cellular automaton</p>
     </div>
   </a>
 </div>
@@ -100,7 +123,9 @@ My focus is on **Java, Spring Framework, and software design principles**, expla
 
 <div class="responsive-grid" aria-label="featured-posts">
   <a class="card" href="https://medium.com/@jaikrns/inversion-of-control-ioc-spring-framework-core-eef63cd168f2">
-    <img src="spring-ioc.png" alt="Spring IoC logo" />
+    <div class="card-image-container">
+      <img src="spring-ioc.png" alt="Spring IoC logo" />
+    </div>
     <div class="card-content">
       <h3>Inversion of Control (IoC) Spring Framework Core</h3>
       <p>Explains what IoC really means, why it exists, and how Spring manages object creation and lifecycle.</p>
@@ -108,7 +133,9 @@ My focus is on **Java, Spring Framework, and software design principles**, expla
   </a>
 
   <a class="card" href="https://medium.com/@jaikrns/everything-about-fail-fast-and-fail-safe-iterators-d81400304ed2">
-    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*2OhO0dVdVkvcExjwvzqSNw.png" alt="Fail-fast logo" />
+    <div class="card-image-container">
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*2OhO0dVdVkvcExjwvzqSNw.png" alt="Fail-fast logo" />
+    </div>
     <div class="card-content">
       <h3>Everything About Fail-fast and Fail-safe Iterators</h3>
       <p>Master Java Collection iterators by understanding Fail-Fast and Fail-Safe behaviour.</p>
